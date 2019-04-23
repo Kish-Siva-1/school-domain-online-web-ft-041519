@@ -23,8 +23,8 @@ class School
   end 
   
   def sort 
-    @roster[9].sort!
-    @roster.sort_by {|k, v| [k, v] }.to_h
+    roster[9].sort!
+    roster.sort_by {|k, v| [k, v] }.to_h
   end 
 
 end 
